@@ -1,0 +1,63 @@
+.webuploader-container {
+	position: relative;
+}
+.webuploader-element-invisible {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px,1px,1px,1px);
+}
+.webuploader-pick {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	background: #eee;
+	width: 104px;
+	height: 22px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #000;
+	text-align: center;
+	line-height: 22px;
+	overflow: hidden;
+}
+.webuploader-pick-hover {
+	background: #ccc;
+}
+
+#box{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.oneD{
+	width: 72px;
+	height: 72px;
+	float: left;
+	margin-right: 20px;
+}
+#box .parentFileBox{
+	float: left;
+}
+.oneD .webuploader-pick{
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+	text-align: center;
+	line-height: 22px;
+	overflow: hidden;
+	width: 72px;
+	height: 72px;
+	background: #fff;
+	line-height:72px;
+	text-align: center;
+	background:url("../images/ico/addImg.jpg") no-repeat;
+	border: 0;
+}
+
+.webuploader-pick-disable {
+	opacity: 0.6;
+	pointer-events:none;
+}
+
