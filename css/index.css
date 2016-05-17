@@ -108,6 +108,7 @@
 
 .lubo_box li img {
     width: 100%;
+    min-width: 1226px;
     height: 502px;
     max-width: 1920px;
 }
@@ -141,9 +142,6 @@
 /*按钮*/
 .lubo_btn {
     display: none;
-    position: absolute;
-    width: 100%;
-    top: 170px;
 }
 
 .leftBtn, .rightBtn {
@@ -156,10 +154,13 @@
     user-select: none;
     background: url("../images/ico/bannerChange.png") no-repeat;
     background-position: -66px 0;
+    position: absolute;
+    top: 170px;
 }
 
 .leftBtn {
     float: left;
+    left: 0;
 }
 div.leftBtnOn{
     background-position: 0px 0px;
@@ -169,6 +170,7 @@ div.rightBtnOn{
 }
 .rightBtn {
     float: right;
+    right: 0;
     background-position: -66px -136px;
 }
 
